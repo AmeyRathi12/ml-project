@@ -1,9 +1,15 @@
+<!DOCTYPE html>
 <html>
-<body>
-    <div class="login">
-       <h1>Student Exam Performance Indicator</h1>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
 
-       <form action="{{ url_for('predict_datapoint')}}" method="post">
+
+<body>
+<div class="login">
+
+
+    <form action="{{ url_for('predict_datapoint')}}" method="post">
         <h1>
             <legend>Student Exam Performance Prediction</legend>
         </h1>
@@ -43,7 +49,7 @@
         <div class="mb-3">
             <label class="form-label">Parental Level of Education</label>
             <select class="form-control" name="parental_level_of_education"
-                placeholder="Enter you Parent Education" required>
+                    placeholder="Enter you Parent Education" required>
                 <option class="placeholder" selected disabled value="">Select Parent Education</option>
                 <option value="associate's degree">
                     associate's degree
@@ -80,7 +86,7 @@
         <div class="mb-3">
             <label class="form-label">Test preparation Course</label>
             <select class="form-control" name="test_preparation_course" placeholder="Enter you Course"
-                required>
+                    required>
                 <option class="placeholder" selected disabled value="">Select Test_course</option>
                 <option value="none">
                     None
@@ -93,19 +99,21 @@
         <div class="mb-3">
             <label class="form-label">Writing Score out of 100</label>
             <input class="form-control" type="number" name="reading_score"
-                placeholder="Enter your Reading score" min='0' max='100' />
+                   placeholder="Enter your Reading score" min='0' max='100' />
         </div>
         <div class="mb-3">
             <label class="form-label">Reading Score out of 100</label>
             <input class="form-control" type="number" name="writing_score"
-                placeholder="Enter your Reading Score" min='0' max='100' />
+                   placeholder="Enter your Reading Score" min='0' max='100' />
         </div>
         <div class="mb-3">
             <input class="btn btn-primary" type="submit" value="Predict your Maths Score" required />
         </div>
     </form>
     <h2>
-       THE  prediction is {{results}}
+        THE  prediction is {{results}}
     </h2>
-   <body>
+
+
+    </body>
 </html>
