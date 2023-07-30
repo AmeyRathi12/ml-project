@@ -84,9 +84,10 @@ The `model_trainer.py` module trains and evaluates various regression models usi
 
 ## Project Snapshot
 
-![Project Snapshot](./images/Screenshot_20230730_161651.png)
+![Project Snapshot](https://github.com/AmeyRathi12/ml-project/blob/8b37e1d4892af83c1d545dfa099f2e9a538873b9/Screenshot_20230730_161651.png)
 
 Description: This image shows a snapshot of the working project in action.
+
 
 
 
