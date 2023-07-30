@@ -82,6 +82,14 @@ The `model_trainer.py` module trains and evaluates various regression models usi
 - catboost
 - xgboost
 
+## Project Snapshot
+
+![Project Snapshot](https://drive.google.com/file/d/18eGSql4GBGOAp4w6DVMNOMzjb_rEs_hi/view?usp=sharing)
+
+Description: This image shows a snapshot of the working project in action.
+
+
+
 ## Authors
 
 - Amey Rathi
