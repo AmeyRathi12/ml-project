@@ -17,10 +17,11 @@ The project is organized into the following main modules:
 ## Installation
 
 1. Clone the repository:
+git clone https://github.com/AmeyRathi12/ml-project.git
 
 
 2. Install the required dependencies:
-
+pip install -r requirements.txt
 
 ## Usage
 
@@ -66,7 +67,22 @@ The `data_transformation.py` module handles data preprocessing, imputation, and 
 The `model_trainer.py` module trains and evaluates various regression models using the train data. The best-performing model is saved as `model.pkl` for later use in predictions.
 
 ## Folder Structure
-
+├── data
+│ ├── stud.csv
+│ ├── train.csv
+│ ├── test.csv
+│ └── data.csv
+├── artifacts
+│ ├── model.pkl
+│ └── preprocessor.pkl
+├── app.py
+├── data_ingestion.py
+├── data_transformation.py
+├── model_trainer.py
+├── predict_pipeline.py
+├── setup.py
+├── requirements.txt
+└── README.md
 
 ## Dependencies
 
